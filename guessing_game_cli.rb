@@ -12,7 +12,7 @@ leave = "exit"
 if input == comp_num
   
   puts "You guessed the correct number!"
-elsif input != comp_num && input != leave.to_s
+elsif input != comp_num && input != leave
   puts "Sorry! The computer guessed #{comp_num}"
 elsif input == leave
   puts "Goodbye!"
