@@ -5,7 +5,7 @@ def run_guessing_game
   
 comp_num = rand(6) + 1
 
-input = gets.chomp.to_s
+input = gets.chomp
 
 leave = "exit"
 
@@ -17,5 +17,4 @@ elsif input != comp_num && input != leave.to_s
 elsif input == leave
   puts "Goodbye!"
   end
-  binding.pry
 end
