@@ -11,7 +11,7 @@ input = gets.chomp.to_s
 
 leave = "exit"
 
-if input == comp_num
+if input.to_s == comp_num
   puts "You guessed the correct number!"
   
 elsif input != comp_num && input != leave.to_s
