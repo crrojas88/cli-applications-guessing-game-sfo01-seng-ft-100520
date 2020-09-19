@@ -15,5 +15,5 @@ elsif input != comp_num && input != leave.to_s
   puts "Sorry! The computer guessed #{comp_num}"
 elsif input == leave
   puts "Goodbye!"
-end
+  end
 end
