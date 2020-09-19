@@ -5,7 +5,7 @@ def run_guessing_game
 
 puts "Guess and input a number between 1 and 6"
   
-comp_num =  (1 + rand(6)).to_s
+comp_num =  1 + rand(6).to_s
 
 input = gets.chomp.to_s
 
