@@ -18,7 +18,7 @@ elsif input != comp_num && input != leave
   return "Sorry! The computer guessed #{comp_num}."
   
 elsif input == leave
-  puts "Goodbye!"
+  return "Goodbye!"
   
   end
 end
