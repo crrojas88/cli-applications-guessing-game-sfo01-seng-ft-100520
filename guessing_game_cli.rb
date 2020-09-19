@@ -17,5 +17,6 @@ elsif input != comp_num && input != leave
   
 elsif input == leave
   puts "Goodbye!"
+  
   end
 end
