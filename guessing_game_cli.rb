@@ -15,7 +15,7 @@ if input == comp_num
   return "You guessed the correct number!"
   
 elsif input != comp_num && input != leave
-  puts "Sorry! The computer guessed #{comp_num}"
+  return "Sorry! The computer guessed #{comp_num}."
   
 elsif input == leave
   puts "Goodbye!"
