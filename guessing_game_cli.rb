@@ -7,11 +7,11 @@ puts "Guess and input a number between 1 and 6"
   
 comp_num =  1 + rand(6)
 
-input = gets.chomp.to_s
+input = gets.chomp
 
 leave = "exit"
 
-if input.to_s == comp_num
+if input == comp_num
   puts "You guessed the correct number!"
   
 elsif input != comp_num && input != leave.to_s
