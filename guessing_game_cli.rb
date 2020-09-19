@@ -7,7 +7,7 @@ puts "Guess and input a number between 1 and 6"
   
 comp_num =  1 + rand(6)
 
-input = gets.chomp
+input = gets.chomp.to_s
 
 leave = "exit"
 
