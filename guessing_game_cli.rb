@@ -12,13 +12,13 @@ input = gets.chomp.to_s
 leave = "exit"
 
 if input == comp_num
-  return "You guessed the correct number!"
+  puts "You guessed the correct number!"
   
 elsif input != comp_num && input != leave
-  return "Sorry! The computer guessed #{comp_num}."
+  puts "Sorry! The computer guessed #{comp_num}."
   
 elsif input == leave
-  return "Goodbye!"
+  puts "Goodbye!"
   
   end
 end
